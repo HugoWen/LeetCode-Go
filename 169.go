@@ -1,12 +1,4 @@
 package main
-import (
-	"fmt"
-)
-
-func main() {
-	var arr = []int{3, 2, 3}
-	fmt.Println(majorityElement(arr))
-}
 
 func majorityElement(nums []int) int {
     countMap := make(map[int]int)
