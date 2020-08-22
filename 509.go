@@ -1,11 +1,13 @@
 package main
 
-func fib(N int) int {
-    if N == 0 {
-        return 0
+func fib(n int) int {
+    if n < 2 {
+        return n
     }
-    if N == 1 {
-        return 1
+    slice := make([]int, n + 1)
+    slice[1] = 1
+    for i := 2; i <= n; i ++ {
+        slice[i] = slice[i - 1] + slice[i - 2]
     }
-    return fib(N - 1) + fib(N - 2)
+    return slice[n]
 }
