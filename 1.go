@@ -1,3 +1,5 @@
+package main
+
 func twoSum(nums []int, target int) []int {
     l := len(nums)
     ret := []int{}
