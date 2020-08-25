@@ -1,6 +1,6 @@
 package main
 
-func singleNumber(nums []int) int {
+func singleNumber1(nums []int) int {
     one := 0
     two := 0
     for _, num := range nums {
