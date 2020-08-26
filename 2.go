@@ -24,7 +24,7 @@ func addNum(l1 *ListNode, l2 *ListNode, carry bool) *ListNode {
 
     sum := 0
     if carry == true {
-        sum += 1
+        sum ++
     } 
 
     if l1 != nil {
