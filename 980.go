@@ -24,7 +24,7 @@ func dfs(grid [][]int, x int, y int, num int) int {
     if grid[x][y] == 2 {
         if num == 0 {
             return 1
-		} 
+		}
 		
         return 0
         
