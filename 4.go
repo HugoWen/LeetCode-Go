@@ -26,7 +26,7 @@ func findK(nums1 []int, nums2[]int, k int) int {
         }
 
         if k == 1 {
-            return min(nums1[index1], nums2[index2])
+            return min1(nums1[index1], nums2[index2])
         }
 
         half := k / 2
@@ -43,7 +43,7 @@ func findK(nums1 []int, nums2[]int, k int) int {
     
 }
 
-func min(x, y int) int {
+func min1(x, y int) int {
     if x < y {
         return x
     }
