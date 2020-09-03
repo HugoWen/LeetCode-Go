@@ -1,6 +1,7 @@
 package main
 
 import "strings"
+import "math"
 
 func myAtoi(str string) int {
     res := 0
